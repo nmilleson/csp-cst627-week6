@@ -1,0 +1,10 @@
+# CUDA build of torch for Blackwell GPUs (sm_120) needs CUDA 12.8+ wheels:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.7
+transformers>=4.56,<5  # TRL 1.x needs Triton (Linux-only) for its fused LM head
+peft>=0.17,<0.18
+trl>=0.23,<0.25
+datasets>=2.20
+accelerate>=0.33
+openpyxl>=3.1
+pandas>=2.0
