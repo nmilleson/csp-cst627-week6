@@ -1,0 +1,35 @@
+{
+  "label": "base",
+  "eval_id": {
+    "n": 200,
+    "valid_json": 0.84,
+    "has_all_fields": 0.835,
+    "urgency_match": 0.575,
+    "appeal_type_match": 0.215,
+    "filed_by_match": 0.225,
+    "denial_reason_match": 0.045,
+    "service_match": 0.11,
+    "evidence_f1": 0.1,
+    "argument_f1": 0.13618817706280806,
+    "summary_f1": 0.21994000543961334,
+    "decision_language": 0.185,
+    "expedited_recall": 0.0,
+    "seconds_per_example": 0.5253702259063721
+  },
+  "eval_ood": {
+    "n": 90,
+    "valid_json": 0.8888888888888888,
+    "has_all_fields": 0.8666666666666667,
+    "urgency_match": 0.6444444444444445,
+    "appeal_type_match": 0.23333333333333334,
+    "filed_by_match": 0.2111111111111111,
+    "denial_reason_match": 0.06666666666666667,
+    "service_match": 0.044444444444444446,
+    "evidence_f1": 0.18888888888888888,
+    "argument_f1": 0.10734398720653042,
+    "summary_f1": 0.273714840828261,
+    "decision_language": 0.16666666666666666,
+    "expedited_recall": 0.0,
+    "seconds_per_example": 0.5246180931727091
+  }
+}

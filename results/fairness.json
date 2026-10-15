@@ -1,0 +1,2034 @@
+{
+  "base_eval_id": {
+    "preferred_language": {
+      "groups": {
+        "en": {
+          "n": 100,
+          "n_expedited": 34,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.57,
+          "denial_reason_match": 0.02,
+          "service_match": 0.1,
+          "filed_by_match": 0.25,
+          "summary_f1": 0.2850869541112388,
+          "valid_json": 0.88
+        },
+        "es": {
+          "n": 100,
+          "n_expedited": 31,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.58,
+          "denial_reason_match": 0.07,
+          "service_match": 0.12,
+          "filed_by_match": 0.2,
+          "summary_f1": 0.1547930567679881,
+          "valid_json": 0.8
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.010000000000000009,
+          "ratio": 0.9827586206896551,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.13,
+            0.14999999999999997
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.05,
+          "ratio": 0.2857142857142857,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.0,
+            0.11
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.01999999999999999,
+          "ratio": 0.8333333333333334,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.07,
+            0.1
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.04999999999999999,
+          "ratio": 0.8,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.06,
+            0.16000000000000003
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.1302938973432507,
+          "ratio": 0.5429678718570511,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.09099449642264171,
+            0.17049432253978677
+          ],
+          "gap_significant": true
+        },
+        "valid_json": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.07999999999999996,
+          "ratio": 0.9090909090909092,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.030000000000000027,
+            0.18000000000000005
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "writing_style": {
+      "groups": {
+        "en_lep": {
+          "n": 57,
+          "n_expedited": 17,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5964912280701754,
+          "denial_reason_match": 0.03508771929824561,
+          "service_match": 0.21052631578947367,
+          "filed_by_match": 0.17543859649122806,
+          "summary_f1": 0.22266102506521426,
+          "valid_json": 0.8070175438596491
+        },
+        "en_standard": {
+          "n": 100,
+          "n_expedited": 34,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.57,
+          "denial_reason_match": 0.02,
+          "service_match": 0.1,
+          "filed_by_match": 0.25,
+          "summary_f1": 0.2850869541112388,
+          "valid_json": 0.88
+        },
+        "es": {
+          "n": 43,
+          "n_expedited": 14,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5581395348837209,
+          "denial_reason_match": 0.11627906976744186,
+          "service_match": 0.0,
+          "filed_by_match": 0.23255813953488372,
+          "summary_f1": 0.06482854065306039,
+          "valid_json": 0.7906976744186046
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false
+        },
+        "urgency_match": {
+          "worst_group": "es",
+          "best_group": "en_lep",
+          "gap": 0.03835169318645448,
+          "ratio": 0.9357045143638851,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en_standard",
+          "best_group": "es",
+          "gap": 0.09627906976744185,
+          "ratio": 0.17200000000000001,
+          "four_fifths_flag": true
+        },
+        "service_match": {
+          "worst_group": "es",
+          "best_group": "en_lep",
+          "gap": 0.21052631578947367,
+          "ratio": 0.0,
+          "four_fifths_flag": true
+        },
+        "filed_by_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.07456140350877194,
+          "ratio": 0.7017543859649122,
+          "four_fifths_flag": true
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en_standard",
+          "gap": 0.22025841345817843,
+          "ratio": 0.22739918371629442,
+          "four_fifths_flag": true
+        },
+        "valid_json": {
+          "worst_group": "es",
+          "best_group": "en_standard",
+          "gap": 0.08930232558139539,
+          "ratio": 0.8985200845665962,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "age_band": {
+      "groups": {
+        "65+": {
+          "n": 100,
+          "n_expedited": 32,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.59,
+          "denial_reason_match": 0.03,
+          "service_match": 0.1,
+          "filed_by_match": 0.32,
+          "summary_f1": 0.21905348364206503,
+          "valid_json": 0.83
+        },
+        "under_65": {
+          "n": 100,
+          "n_expedited": 33,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.56,
+          "denial_reason_match": 0.06,
+          "service_match": 0.12,
+          "filed_by_match": 0.13,
+          "summary_f1": 0.22082652723716178,
+          "valid_json": 0.85
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.029999999999999916,
+          "ratio": 0.9491525423728815,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.10999999999999999,
+            0.16000000000000003
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.03,
+          "ratio": 0.5,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.03,
+            0.09000000000000001
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.01999999999999999,
+          "ratio": 0.8333333333333334,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.07,
+            0.10999999999999999
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.19,
+          "ratio": 0.40625,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.07,
+            0.30000000000000004
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.0017730435950967516,
+          "ratio": 0.9919708758848861,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.04105882973375241,
+            0.04469868624512527
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.020000000000000018,
+          "ratio": 0.9764705882352941,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.08000000000000007,
+            0.12
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "plan_type": {
+      "groups": {
+        "Commercial": {
+          "n": 74,
+          "n_expedited": 25,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.581081081081081,
+          "denial_reason_match": 0.05405405405405406,
+          "service_match": 0.12162162162162163,
+          "filed_by_match": 0.14864864864864866,
+          "summary_f1": 0.2458552054772787,
+          "valid_json": 0.8783783783783784
+        },
+        "Medicaid": {
+          "n": 42,
+          "n_expedited": 13,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5476190476190477,
+          "denial_reason_match": 0.07142857142857142,
+          "service_match": 0.07142857142857142,
+          "filed_by_match": 0.14285714285714285,
+          "summary_f1": 0.1886723688368164,
+          "valid_json": 0.8095238095238095
+        },
+        "Medicare Advantage": {
+          "n": 84,
+          "n_expedited": 27,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5833333333333334,
+          "denial_reason_match": 0.023809523809523808,
+          "service_match": 0.11904761904761904,
+          "filed_by_match": 0.3333333333333333,
+          "summary_f1": 0.2127437665649736,
+          "valid_json": 0.8214285714285714
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false
+        },
+        "urgency_match": {
+          "worst_group": "Medicaid",
+          "best_group": "Medicare Advantage",
+          "gap": 0.0357142857142857,
+          "ratio": 0.9387755102040817,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.047619047619047616,
+          "ratio": 0.3333333333333333,
+          "four_fifths_flag": true
+        },
+        "service_match": {
+          "worst_group": "Medicaid",
+          "best_group": "Commercial",
+          "gap": 0.050193050193050204,
+          "ratio": 0.5873015873015872,
+          "four_fifths_flag": true
+        },
+        "filed_by_match": {
+          "worst_group": "Medicaid",
+          "best_group": "Medicare Advantage",
+          "gap": 0.19047619047619047,
+          "ratio": 0.42857142857142855,
+          "four_fifths_flag": true
+        },
+        "summary_f1": {
+          "worst_group": "Medicaid",
+          "best_group": "Commercial",
+          "gap": 0.05718283664046231,
+          "ratio": 0.7674125445932566,
+          "four_fifths_flag": true
+        },
+        "valid_json": {
+          "worst_group": "Medicaid",
+          "best_group": "Commercial",
+          "gap": 0.06885456885456886,
+          "ratio": 0.9216117216117216,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "filed_by": {
+      "groups": {
+        "member": {
+          "n": 154,
+          "n_expedited": 47,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.577922077922078,
+          "denial_reason_match": 0.05194805194805195,
+          "service_match": 0.13636363636363635,
+          "filed_by_match": 0.045454545454545456,
+          "summary_f1": 0.2226622794051291,
+          "valid_json": 0.8376623376623377
+        },
+        "representative": {
+          "n": 46,
+          "n_expedited": 18,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5652173913043478,
+          "denial_reason_match": 0.021739130434782608,
+          "service_match": 0.021739130434782608,
+          "filed_by_match": 0.8260869565217391,
+          "summary_f1": 0.2108263056420176,
+          "valid_json": 0.8478260869565217
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "member",
+          "best_group": "member",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.012704686617730165,
+          "ratio": 0.9780166096726917,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.15866741953698477,
+            0.17137210615471482
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.030208921513269343,
+          "ratio": 0.4184782608695652,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.028514963297571992,
+            0.07792207792207792
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.11462450592885375,
+          "ratio": 0.15942028985507248,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.0409373235460192,
+            0.18181818181818182
+          ],
+          "gap_significant": true
+        },
+        "filed_by_match": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.7806324110671937,
+          "ratio": 0.05502392344497608,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.6589497459062676,
+            0.8870694522868435
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.01183597376311149,
+          "ratio": 0.9468433818483633,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.03700856589046289,
+            0.06460340461982433
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.010163749294184066,
+          "ratio": 0.988011988011988,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.11603613777526822,
+            0.12083568605307726
+          ],
+          "gap_significant": false
+        }
+      }
+    }
+  },
+  "base_eval_ood": {
+    "preferred_language": {
+      "groups": {
+        "en": {
+          "n": 60,
+          "n_expedited": 13,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6666666666666666,
+          "denial_reason_match": 0.05,
+          "service_match": 0.05,
+          "filed_by_match": 0.2,
+          "summary_f1": 0.27654539180500737,
+          "valid_json": 0.8833333333333333
+        },
+        "es": {
+          "n": 30,
+          "n_expedited": 10,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6,
+          "denial_reason_match": 0.1,
+          "service_match": 0.03333333333333333,
+          "filed_by_match": 0.23333333333333334,
+          "summary_f1": 0.26805373887476835,
+          "valid_json": 0.9
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.06666666666666665,
+          "ratio": 0.9,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.13333333333333341,
+            0.2833333333333333
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.05,
+          "ratio": 0.5,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.06666666666666667,
+            0.18333333333333335
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.01666666666666667,
+          "ratio": 0.6666666666666666,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.06666666666666668,
+            0.1
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.033333333333333326,
+          "ratio": 0.8571428571428572,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.15,
+            0.21666666666666665
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.008491652930239013,
+          "ratio": 0.9692938187296699,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.04743370560048299,
+            0.06445971146944057
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.01666666666666672,
+          "ratio": 0.9814814814814814,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.11666666666666659,
+            0.15000000000000002
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "writing_style": {
+      "groups": {
+        "en_lep": {
+          "n": 9,
+          "n_expedited": 4,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5555555555555556,
+          "denial_reason_match": 0.1111111111111111,
+          "service_match": 0.0,
+          "filed_by_match": 0.2222222222222222,
+          "summary_f1": 0.27018423841953254,
+          "valid_json": 0.8888888888888888
+        },
+        "en_standard": {
+          "n": 60,
+          "n_expedited": 13,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6666666666666666,
+          "denial_reason_match": 0.05,
+          "service_match": 0.05,
+          "filed_by_match": 0.2,
+          "summary_f1": 0.27654539180500737,
+          "valid_json": 0.8833333333333333
+        },
+        "es": {
+          "n": 21,
+          "n_expedited": 6,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6190476190476191,
+          "denial_reason_match": 0.09523809523809523,
+          "service_match": 0.047619047619047616,
+          "filed_by_match": 0.23809523809523808,
+          "summary_f1": 0.2671406676412979,
+          "valid_json": 0.9047619047619048
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false
+        },
+        "urgency_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.11111111111111105,
+          "ratio": 0.8333333333333334,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en_standard",
+          "best_group": "en_lep",
+          "gap": 0.0611111111111111,
+          "ratio": 0.45000000000000007,
+          "four_fifths_flag": true
+        },
+        "service_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.05,
+          "ratio": 0.0,
+          "four_fifths_flag": true
+        },
+        "filed_by_match": {
+          "worst_group": "en_standard",
+          "best_group": "es",
+          "gap": 0.03809523809523807,
+          "ratio": 0.8400000000000001,
+          "four_fifths_flag": false
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en_standard",
+          "gap": 0.009404724163709466,
+          "ratio": 0.9659921139805477,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "en_standard",
+          "best_group": "es",
+          "gap": 0.021428571428571463,
+          "ratio": 0.9763157894736841,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "age_band": {
+      "groups": {
+        "65+": {
+          "n": 30,
+          "n_expedited": 6,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.7333333333333333,
+          "denial_reason_match": 0.03333333333333333,
+          "service_match": 0.1,
+          "filed_by_match": 0.36666666666666664,
+          "summary_f1": 0.29823016832557864,
+          "valid_json": 0.9333333333333333
+        },
+        "under_65": {
+          "n": 60,
+          "n_expedited": 17,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6,
+          "denial_reason_match": 0.08333333333333333,
+          "service_match": 0.016666666666666666,
+          "filed_by_match": 0.13333333333333333,
+          "summary_f1": 0.26145717707960225,
+          "valid_json": 0.8666666666666667
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.1333333333333333,
+          "ratio": 0.8181818181818182,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.08333333333333337,
+            0.33333333333333337
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.049999999999999996,
+          "ratio": 0.4,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.06666666666666667,
+            0.13333333333333333
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.08333333333333334,
+          "ratio": 0.16666666666666666,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.016666666666666666,
+            0.2
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.2333333333333333,
+          "ratio": 0.36363636363636365,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.033333333333333326,
+            0.43333333333333335
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.03677299124597638,
+          "ratio": 0.8766959377301118,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.017041132241689017,
+            0.08754236211169747
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.06666666666666665,
+          "ratio": 0.9285714285714286,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.06666666666666665,
+            0.18333333333333335
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "plan_type": {
+      "groups": {
+        "Commercial": {
+          "n": 44,
+          "n_expedited": 10,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6363636363636364,
+          "denial_reason_match": 0.06818181818181818,
+          "service_match": 0.022727272727272728,
+          "filed_by_match": 0.11363636363636363,
+          "summary_f1": 0.2562178630873483,
+          "valid_json": 0.8409090909090909
+        },
+        "Medicaid": {
+          "n": 23,
+          "n_expedited": 8,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6086956521739131,
+          "denial_reason_match": 0.13043478260869565,
+          "service_match": 0.043478260869565216,
+          "filed_by_match": 0.21739130434782608,
+          "summary_f1": 0.29454220142288673,
+          "valid_json": 0.9565217391304348
+        },
+        "Medicare Advantage": {
+          "n": 23,
+          "n_expedited": 5,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.6956521739130435,
+          "denial_reason_match": 0.0,
+          "service_match": 0.08695652173913043,
+          "filed_by_match": 0.391304347826087,
+          "summary_f1": 0.28635995939016395,
+          "valid_json": 0.9130434782608695
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": null,
+          "four_fifths_flag": false
+        },
+        "urgency_match": {
+          "worst_group": "Medicaid",
+          "best_group": "Medicare Advantage",
+          "gap": 0.08695652173913038,
+          "ratio": 0.8750000000000001,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.13043478260869565,
+          "ratio": 0.0,
+          "four_fifths_flag": true
+        },
+        "service_match": {
+          "worst_group": "Commercial",
+          "best_group": "Medicare Advantage",
+          "gap": 0.0642292490118577,
+          "ratio": 0.26136363636363635,
+          "four_fifths_flag": true
+        },
+        "filed_by_match": {
+          "worst_group": "Commercial",
+          "best_group": "Medicare Advantage",
+          "gap": 0.2776679841897233,
+          "ratio": 0.2904040404040404,
+          "four_fifths_flag": true
+        },
+        "summary_f1": {
+          "worst_group": "Commercial",
+          "best_group": "Medicaid",
+          "gap": 0.038324338335538444,
+          "ratio": 0.8698850685898332,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "Commercial",
+          "best_group": "Medicaid",
+          "gap": 0.11561264822134387,
+          "ratio": 0.8791322314049587,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "filed_by": {
+      "groups": {
+        "member": {
+          "n": 70,
+          "n_expedited": 23,
+          "expedited_recall": 0.0,
+          "urgency_match": 0.5714285714285714,
+          "denial_reason_match": 0.08571428571428572,
+          "service_match": 0.05714285714285714,
+          "filed_by_match": 0.014285714285714285,
+          "summary_f1": 0.26722008164082167,
+          "valid_json": 0.8857142857142857
+        },
+        "representative": {
+          "n": 20,
+          "n_expedited": 0,
+          "expedited_recall": null,
+          "urgency_match": 0.9,
+          "denial_reason_match": 0.0,
+          "service_match": 0.0,
+          "filed_by_match": 0.9,
+          "summary_f1": 0.29644649798429884,
+          "valid_json": 0.9
+        }
+      },
+      "disparity": {
+        "urgency_match": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.3285714285714286,
+          "ratio": 0.6349206349206349,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.13571428571428568,
+            0.4928571428571428
+          ],
+          "gap_significant": true
+        },
+        "denial_reason_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.08571428571428572,
+          "ratio": 0.0,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.02857142857142857,
+            0.15714285714285714
+          ],
+          "gap_significant": true
+        },
+        "service_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.05714285714285714,
+          "ratio": 0.0,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.014285714285714285,
+            0.11428571428571428
+          ],
+          "gap_significant": true
+        },
+        "filed_by_match": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.8857142857142858,
+          "ratio": 0.015873015873015872,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.7357142857142858,
+            1.0
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.02922641634347717,
+          "ratio": 0.90141082272112,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.04334305480631004,
+            0.09644297440053884
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.014285714285714346,
+          "ratio": 0.9841269841269841,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.15000000000000002,
+            0.1499999999999999
+          ],
+          "gap_significant": false
+        }
+      }
+    }
+  },
+  "sft_eval_id": {
+    "preferred_language": {
+      "groups": {
+        "en": {
+          "n": 100,
+          "n_expedited": 34,
+          "expedited_recall": 0.6764705882352942,
+          "urgency_match": 0.89,
+          "denial_reason_match": 1.0,
+          "service_match": 1.0,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9956819137789936,
+          "valid_json": 1.0
+        },
+        "es": {
+          "n": 100,
+          "n_expedited": 31,
+          "expedited_recall": 0.5483870967741935,
+          "urgency_match": 0.86,
+          "denial_reason_match": 1.0,
+          "service_match": 0.96,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.963243583880492,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.12808349146110065,
+          "ratio": 0.8106591865357643,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.10535714285714287,
+            0.37619047619047624
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.030000000000000027,
+          "ratio": 0.9662921348314606,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.06000000000000005,
+            0.12
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.040000000000000036,
+          "ratio": 0.96,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.010000000000000009,
+            0.07999999999999996
+          ],
+          "gap_significant": true
+        },
+        "filed_by_match": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.032438329898501594,
+          "ratio": 0.9674209911322124,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.01905472092729299,
+            0.04831551766424069
+          ],
+          "gap_significant": true
+        },
+        "valid_json": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "writing_style": {
+      "groups": {
+        "en_lep": {
+          "n": 57,
+          "n_expedited": 17,
+          "expedited_recall": 0.4117647058823529,
+          "urgency_match": 0.8245614035087719,
+          "denial_reason_match": 1.0,
+          "service_match": 1.0,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9564614258878726,
+          "valid_json": 1.0
+        },
+        "en_standard": {
+          "n": 100,
+          "n_expedited": 34,
+          "expedited_recall": 0.6764705882352942,
+          "urgency_match": 0.89,
+          "denial_reason_match": 1.0,
+          "service_match": 1.0,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9956819137789936,
+          "valid_json": 1.0
+        },
+        "es": {
+          "n": 43,
+          "n_expedited": 14,
+          "expedited_recall": 0.7142857142857143,
+          "urgency_match": 0.9069767441860465,
+          "denial_reason_match": 1.0,
+          "service_match": 0.9069767441860465,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9722338863358249,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en_lep",
+          "best_group": "es",
+          "gap": 0.3025210084033614,
+          "ratio": 0.5764705882352941,
+          "four_fifths_flag": true
+        },
+        "urgency_match": {
+          "worst_group": "en_lep",
+          "best_group": "es",
+          "gap": 0.08241534067727452,
+          "ratio": 0.909131803868646,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        },
+        "service_match": {
+          "worst_group": "es",
+          "best_group": "en_lep",
+          "gap": 0.09302325581395354,
+          "ratio": 0.9069767441860465,
+          "four_fifths_flag": false
+        },
+        "filed_by_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        },
+        "summary_f1": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.03922048789112098,
+          "ratio": 0.9606094201889596,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "age_band": {
+      "groups": {
+        "65+": {
+          "n": 100,
+          "n_expedited": 32,
+          "expedited_recall": 0.53125,
+          "urgency_match": 0.85,
+          "denial_reason_match": 1.0,
+          "service_match": 0.96,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9747463734364046,
+          "valid_json": 1.0
+        },
+        "under_65": {
+          "n": 100,
+          "n_expedited": 33,
+          "expedited_recall": 0.696969696969697,
+          "urgency_match": 0.9,
+          "denial_reason_match": 1.0,
+          "service_match": 1.0,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9841791242230817,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.16571969696969702,
+          "ratio": 0.7622282608695652,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            -0.06617647058823528,
+            0.3928571428571429
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.050000000000000044,
+          "ratio": 0.9444444444444444,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.040000000000000036,
+            0.14
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.040000000000000036,
+          "ratio": 0.96,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.010000000000000009,
+            0.07999999999999996
+          ],
+          "gap_significant": true
+        },
+        "filed_by_match": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.009432750786677158,
+          "ratio": 0.9904156158624849,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.005020668573298526,
+            0.024486225822401564
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "plan_type": {
+      "groups": {
+        "Commercial": {
+          "n": 74,
+          "n_expedited": 25,
+          "expedited_recall": 0.6,
+          "urgency_match": 0.8648648648648649,
+          "denial_reason_match": 1.0,
+          "service_match": 0.9864864864864865,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.976607862949834,
+          "valid_json": 1.0
+        },
+        "Medicaid": {
+          "n": 42,
+          "n_expedited": 13,
+          "expedited_recall": 0.7692307692307693,
+          "urgency_match": 0.9285714285714286,
+          "denial_reason_match": 1.0,
+          "service_match": 1.0,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.991682127396413,
+          "valid_json": 1.0
+        },
+        "Medicare Advantage": {
+          "n": 84,
+          "n_expedited": 27,
+          "expedited_recall": 0.5555555555555556,
+          "urgency_match": 0.8571428571428571,
+          "denial_reason_match": 1.0,
+          "service_match": 0.9642857142857143,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9758680780596611,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.2136752136752137,
+          "ratio": 0.7222222222222222,
+          "four_fifths_flag": true
+        },
+        "urgency_match": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.07142857142857151,
+          "ratio": 0.923076923076923,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        },
+        "service_match": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.0357142857142857,
+          "ratio": 0.9642857142857143,
+          "four_fifths_flag": false
+        },
+        "filed_by_match": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        },
+        "summary_f1": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Medicaid",
+          "gap": 0.0158140493367519,
+          "ratio": 0.9840533081116724,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "filed_by": {
+      "groups": {
+        "member": {
+          "n": 154,
+          "n_expedited": 47,
+          "expedited_recall": 0.6382978723404256,
+          "urgency_match": 0.8896103896103896,
+          "denial_reason_match": 1.0,
+          "service_match": 0.987012987012987,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9791136745244658,
+          "valid_json": 1.0
+        },
+        "representative": {
+          "n": 46,
+          "n_expedited": 18,
+          "expedited_recall": 0.5555555555555556,
+          "urgency_match": 0.8260869565217391,
+          "denial_reason_match": 1.0,
+          "service_match": 0.9565217391304348,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.9806313888952367,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.08274231678486998,
+          "ratio": 0.8703703703703703,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.18504901960784315,
+            0.359375
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.0635234330886505,
+          "ratio": 0.9285940971120279,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.05392433653303219,
+            0.19367588932806323
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "member",
+          "best_group": "member",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.030491247882552197,
+          "ratio": 0.9691075514874142,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.01948051948051943,
+            0.09570863918690009
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "member",
+          "best_group": "member",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.0015177143707708618,
+          "ratio": 0.9984523090042215,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.016643518209556007,
+            0.016707163510081058
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "member",
+          "best_group": "member",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    }
+  },
+  "sft_eval_ood": {
+    "preferred_language": {
+      "groups": {
+        "en": {
+          "n": 60,
+          "n_expedited": 13,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.9166666666666666,
+          "service_match": 1.0,
+          "filed_by_match": 0.7666666666666667,
+          "summary_f1": 0.9021038643321376,
+          "valid_json": 1.0
+        },
+        "es": {
+          "n": 30,
+          "n_expedited": 10,
+          "expedited_recall": 0.9,
+          "urgency_match": 0.9333333333333333,
+          "denial_reason_match": 0.7666666666666667,
+          "service_match": 0.9,
+          "filed_by_match": 0.8,
+          "summary_f1": 0.8414867704775404,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.09999999999999998,
+          "ratio": 0.9,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.33333333333333337
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.06666666666666665,
+          "ratio": 0.9333333333333333,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.16666666666666663
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.1499999999999999,
+          "ratio": 0.8363636363636364,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.01666666666666672,
+            0.31666666666666665
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.09999999999999998,
+          "ratio": 0.9,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.23333333333333328
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "en",
+          "best_group": "es",
+          "gap": 0.033333333333333326,
+          "ratio": 0.9583333333333334,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.15000000000000002,
+            0.20000000000000007
+          ],
+          "gap_significant": false
+        },
+        "summary_f1": {
+          "worst_group": "es",
+          "best_group": "en",
+          "gap": 0.06061709385459724,
+          "ratio": 0.932804750925799,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.01603853701256308,
+            0.11045265310922914
+          ],
+          "gap_significant": true
+        },
+        "valid_json": {
+          "worst_group": "en",
+          "best_group": "en",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "writing_style": {
+      "groups": {
+        "en_lep": {
+          "n": 9,
+          "n_expedited": 4,
+          "expedited_recall": 0.75,
+          "urgency_match": 0.7777777777777778,
+          "denial_reason_match": 0.7777777777777778,
+          "service_match": 0.8888888888888888,
+          "filed_by_match": 0.7777777777777778,
+          "summary_f1": 0.821652035635465,
+          "valid_json": 1.0
+        },
+        "en_standard": {
+          "n": 60,
+          "n_expedited": 13,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.9166666666666666,
+          "service_match": 1.0,
+          "filed_by_match": 0.7666666666666667,
+          "summary_f1": 0.9021038643321376,
+          "valid_json": 1.0
+        },
+        "es": {
+          "n": 21,
+          "n_expedited": 6,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.7619047619047619,
+          "service_match": 0.9047619047619048,
+          "filed_by_match": 0.8095238095238095,
+          "summary_f1": 0.8499873711241441,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.25,
+          "ratio": 0.75,
+          "four_fifths_flag": true
+        },
+        "urgency_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.2222222222222222,
+          "ratio": 0.7777777777777778,
+          "four_fifths_flag": true
+        },
+        "denial_reason_match": {
+          "worst_group": "es",
+          "best_group": "en_standard",
+          "gap": 0.15476190476190477,
+          "ratio": 0.8311688311688311,
+          "four_fifths_flag": false
+        },
+        "service_match": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.11111111111111116,
+          "ratio": 0.8888888888888888,
+          "four_fifths_flag": false
+        },
+        "filed_by_match": {
+          "worst_group": "en_standard",
+          "best_group": "es",
+          "gap": 0.042857142857142816,
+          "ratio": 0.9470588235294118,
+          "four_fifths_flag": false
+        },
+        "summary_f1": {
+          "worst_group": "en_lep",
+          "best_group": "en_standard",
+          "gap": 0.08045182869667267,
+          "ratio": 0.9108175545215802,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "en_lep",
+          "best_group": "en_lep",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "age_band": {
+      "groups": {
+        "65+": {
+          "n": 30,
+          "n_expedited": 6,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.9333333333333333,
+          "service_match": 1.0,
+          "filed_by_match": 0.5666666666666667,
+          "summary_f1": 0.9053888199825033,
+          "valid_json": 1.0
+        },
+        "under_65": {
+          "n": 60,
+          "n_expedited": 17,
+          "expedited_recall": 0.9411764705882353,
+          "urgency_match": 0.9666666666666667,
+          "denial_reason_match": 0.8333333333333334,
+          "service_match": 0.95,
+          "filed_by_match": 0.8833333333333333,
+          "summary_f1": 0.8701528395796561,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.05882352941176472,
+          "ratio": 0.9411764705882353,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.19999999999999996
+          ],
+          "gap_significant": false
+        },
+        "urgency_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.033333333333333326,
+          "ratio": 0.9666666666666667,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.08333333333333337
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.09999999999999998,
+          "ratio": 0.8928571428571429,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.033333333333333326,
+            0.23333333333333328
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.050000000000000044,
+          "ratio": 0.95,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.1166666666666667
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "65+",
+          "best_group": "under_65",
+          "gap": 0.31666666666666665,
+          "ratio": 0.6415094339622641,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            0.11666666666666659,
+            0.5166666666666666
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "under_65",
+          "best_group": "65+",
+          "gap": 0.035235980402847256,
+          "ratio": 0.9610819356003002,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.0015214042266327166,
+            0.0727166161577053
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "65+",
+          "best_group": "65+",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    },
+    "plan_type": {
+      "groups": {
+        "Commercial": {
+          "n": 44,
+          "n_expedited": 10,
+          "expedited_recall": 0.9,
+          "urgency_match": 0.9545454545454546,
+          "denial_reason_match": 0.8409090909090909,
+          "service_match": 0.9772727272727273,
+          "filed_by_match": 0.8863636363636364,
+          "summary_f1": 0.8840879608923217,
+          "valid_json": 1.0
+        },
+        "Medicaid": {
+          "n": 23,
+          "n_expedited": 8,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.8695652173913043,
+          "service_match": 0.9130434782608695,
+          "filed_by_match": 0.8260869565217391,
+          "summary_f1": 0.8591795967247502,
+          "valid_json": 1.0
+        },
+        "Medicare Advantage": {
+          "n": 23,
+          "n_expedited": 5,
+          "expedited_recall": 1.0,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.9130434782608695,
+          "service_match": 1.0,
+          "filed_by_match": 0.5217391304347826,
+          "summary_f1": 0.9004275639270899,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "expedited_recall": {
+          "worst_group": "Commercial",
+          "best_group": "Medicaid",
+          "gap": 0.09999999999999998,
+          "ratio": 0.9,
+          "four_fifths_flag": false
+        },
+        "urgency_match": {
+          "worst_group": "Commercial",
+          "best_group": "Medicaid",
+          "gap": 0.045454545454545414,
+          "ratio": 0.9545454545454546,
+          "four_fifths_flag": false
+        },
+        "denial_reason_match": {
+          "worst_group": "Commercial",
+          "best_group": "Medicare Advantage",
+          "gap": 0.07213438735177857,
+          "ratio": 0.920995670995671,
+          "four_fifths_flag": false
+        },
+        "service_match": {
+          "worst_group": "Medicaid",
+          "best_group": "Medicare Advantage",
+          "gap": 0.08695652173913049,
+          "ratio": 0.9130434782608695,
+          "four_fifths_flag": false
+        },
+        "filed_by_match": {
+          "worst_group": "Medicare Advantage",
+          "best_group": "Commercial",
+          "gap": 0.36462450592885376,
+          "ratio": 0.588628762541806,
+          "four_fifths_flag": true
+        },
+        "summary_f1": {
+          "worst_group": "Medicaid",
+          "best_group": "Medicare Advantage",
+          "gap": 0.0412479672023397,
+          "ratio": 0.95419068800777,
+          "four_fifths_flag": false
+        },
+        "valid_json": {
+          "worst_group": "Commercial",
+          "best_group": "Commercial",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false
+        }
+      }
+    },
+    "filed_by": {
+      "groups": {
+        "member": {
+          "n": 70,
+          "n_expedited": 23,
+          "expedited_recall": 0.9565217391304348,
+          "urgency_match": 0.9714285714285714,
+          "denial_reason_match": 0.8571428571428571,
+          "service_match": 0.9714285714285714,
+          "filed_by_match": 1.0,
+          "summary_f1": 0.8837907068889667,
+          "valid_json": 1.0
+        },
+        "representative": {
+          "n": 20,
+          "n_expedited": 0,
+          "expedited_recall": null,
+          "urgency_match": 1.0,
+          "denial_reason_match": 0.9,
+          "service_match": 0.95,
+          "filed_by_match": 0.0,
+          "summary_f1": 0.8752742746013398,
+          "valid_json": 1.0
+        }
+      },
+      "disparity": {
+        "urgency_match": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.02857142857142858,
+          "ratio": 0.9714285714285714,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0714285714285714
+          ],
+          "gap_significant": false
+        },
+        "denial_reason_match": {
+          "worst_group": "member",
+          "best_group": "representative",
+          "gap": 0.04285714285714293,
+          "ratio": 0.9523809523809523,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.13571428571428568,
+            0.1785714285714285
+          ],
+          "gap_significant": false
+        },
+        "service_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.021428571428571463,
+          "ratio": 0.9779411764705882,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.05714285714285716,
+            0.1357142857142858
+          ],
+          "gap_significant": false
+        },
+        "filed_by_match": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 1.0,
+          "ratio": 0.0,
+          "four_fifths_flag": true,
+          "gap_ci95": [
+            1.0,
+            1.0
+          ],
+          "gap_significant": true
+        },
+        "summary_f1": {
+          "worst_group": "representative",
+          "best_group": "member",
+          "gap": 0.008516432287626885,
+          "ratio": 0.990363745374054,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            -0.030722132637428068,
+            0.051093247084245785
+          ],
+          "gap_significant": false
+        },
+        "valid_json": {
+          "worst_group": "member",
+          "best_group": "member",
+          "gap": 0.0,
+          "ratio": 1.0,
+          "four_fifths_flag": false,
+          "gap_ci95": [
+            0.0,
+            0.0
+          ],
+          "gap_significant": false
+        }
+      }
+    }
+  }
+}
